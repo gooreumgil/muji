@@ -1,0 +1,621 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html, body {height: 100%;}
+
+/* HEADER */
+
+.head {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    position: absolute;
+}
+
+.head .fullscreen {
+    margin: 0 auto;
+}
+
+.head .fullscreen .inner {
+    margin: 0 auto;
+    margin: 0 45px;
+    padding: 45px 0;
+}
+
+nav.menu_wrap.mobile {
+    display: none; 
+    text-align: center;
+}
+
+.head nav .logo {
+    float: left;
+    margin-left: 10px;
+    padding-bottom: 45px;
+}
+
+.head .menu_wrap ul {
+    float: right;
+}
+
+.head .menu_wrap li {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 6px;
+    margin: 0 16px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+    float: left;
+    font-weight: 300;
+}
+
+.head .menu_wrap li:last-child {
+   margin-right: 10px;
+}
+
+.head .menu_wrap li a:hover {
+    color: rgba(255,255,255,0.5);
+}
+
+@media (max-width:768px) {
+    .head {
+        position: absolute;
+    }
+    .head .fullscreen {
+        display: none;
+    }
+    
+    nav.menu_wrap.mobile {
+        display: block;
+        background-color: #fff;
+        top: 0px;
+        padding: 30px 0;
+    }
+    
+    nav.menu_wrap.mobile .inner_nav {
+        width: 100%;
+        position: relative;
+    }
+    
+    nav.menu_wrap.mobile .menu {
+        position: absolute;
+        left: 30px;
+    }
+    
+    nav.menu_wrap.mobile .search {
+        position: absolute;
+        right: 30px;
+    }
+    
+    .head nav .logo {
+        display: none;
+    }
+    
+}
+
+
+/* WHAT IS MUJI */
+
+.what {
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 100%;
+    background-image: url(../imgs/main/what/bg_1_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.what_title {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+}
+
+.what_title .play {
+    margin-bottom: 46px;
+}
+
+.what_title h2 {
+    font-size: 50px;
+    color: #f9f9f9;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.what_title p {
+    font-size: 16px;
+    color: #f9f9f9;
+    font-weight: 200;
+}
+
+.what_title .button li {
+    display: inline-block;
+    font-size: 0;
+    margin: 0 4px;
+    margin-top: 104px;
+}
+
+@media (max-width:768px) {
+    .what_title h2 {
+        font-size: 50px;
+    }
+}
+
+
+/* ABOUT MUJI */
+
+.about {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-image: url(../imgs/main/bg_2_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.about_brand {
+    width: 100%;
+    position: absolute;
+    top: 38%;
+    margin: 0 auto;
+}
+
+.about_brand .intro {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about_brand .intro h2 {
+    font-size: 50px;
+    color: #f9f9f9;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.about_brand .intro p {
+    font-size: 16px;
+    color: #f9f9f9;
+    font-weight: 200;
+    margin-bottom: 40px;
+    line-height: 1.4;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about_brand .more {
+    display: inline-block;
+    font-size: 14px;
+    color: #f9f9f9;
+    font-weight: 200;
+}
+
+.about_brand .more a {
+    padding: 15px 45px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font-weight: 300;
+    transition: all .2s ease-in-out;
+}
+
+.about_brand .more a:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #555;
+    font-weight: 300;
+}
+
+@media (max-width:768px) {
+    .about_brand .intro h2 {
+        font-size: 50px;
+    }
+}
+
+/* MADE BY MUJI */
+
+.made_by {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-image: url(../imgs/main/bg_3_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.made_by .out {
+    margin: 0 auto;
+    display: table;
+    height: 100%;
+}
+
+.made_by .out_box {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.made_by .item_title h2 {
+    color: #f9f9f9;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.made_by .item_title p {
+    font-size: 16px;
+    color: #f9f9f9;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.made_by .item_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.made_by .item_wrap img, 
+.made_by .item_wrap_mobile img {
+    transition: filter .2s ease-in-out;
+}
+
+.made_by .item_wrap img:hover,
+.made_by .item_wrap_mobile img:hover 
+{
+    -webkit-filter: brightness(130%);
+}
+
+.made_by .item_wrap img {
+    width: 100%;
+}
+
+.made_by .item_wrap h2 {
+    text-align: left;
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 6px;
+}
+
+.made_by .item_wrap p {
+    display: none;
+    text-align: left;
+    font-size: 16px;
+    color: rgba(249,249,249,.75);
+    font-weight: 200;
+    margin-top: 16px;
+    margin-left: 6px;
+    line-height: 1.3;
+    
+}
+
+.item_wrap_mobile {
+    margin: 0 auto;
+    max-width: 558px;
+    margin-top: 10px;
+}
+
+.item_wrap_mobile li {
+    position: relative;
+}
+
+.item_wrap_mobile img {
+    width: 100%;
+}
+
+.item_wrap_mobile h2 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+
+@media (min-width:768px) {
+    .item_wrap_mobile {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .made_by .pc {
+        display: none;
+    }
+    
+    .item_title p {
+        display: none;
+    }
+    .item_wrap {
+        display: none;
+    }
+    
+    .made_by .item_title h2 {
+        font-size: 50px;
+    }
+
+}
+
+/* SPECIAL MUJI */
+
+.special {
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.special .title_box {
+    position: absolute;
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.special .special_title {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.special .special_title h2 {
+    font-size: 50px;
+    color: #f9f9f9;
+    font-weight: bold;
+}
+
+.special .special_title p {
+    font-size: 16px;
+    color: #f9f9f9;
+    font-weight: 200;
+    margin-top: 14px;
+}
+
+.special .special_wrap {
+    height: 100%;
+}
+
+.special .special_wrap h2,
+.special .special_wrap_mobile h2{
+    position: absolute;
+    font-size: 30px;
+    color: #f9f9f9;
+    font-weight: bold;
+    bottom: 30px;
+    left: 30px;
+}
+
+.special .muji_cosmetic {
+    height: 100%;
+    background-image: url(../imgs/main/special_muji/muji_cosmetic_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+}
+
+.special .muji_cosmetic:hover {
+    -webkit-filter: brightness(120%);
+}
+
+.special .muji_cosmetic div {
+    height: 100%;
+    position: relative;
+    pointer-events: auto;
+}
+
+.special .muji_to_go {
+    height: 100%;
+    background-image: url(../imgs/main/special_muji/muji_to_go_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+}
+
+.special .muji_to_go:hover {
+    -webkit-filter: brightness(120%);
+}
+
+.special .muji_to_go div {
+    height: 100%;
+    position: relative;
+    pointer-events: auto;
+}
+
+.special .special_wrap_mobile {
+    display: none;
+    height: 100%;
+}
+
+@media (max-width:768px) {
+    .special .special_wrap_mobile {
+        display: block;
+    }
+    
+    .special .special_wrap {
+        display: none;
+    }
+    
+    .special .special_title {
+        position: inherit;
+        top:8%;
+    }
+}
+
+/* NEAR MUJI */
+
+.near_muji {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-image: url(../imgs/main/bg_6_2_loss.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.near_muji .out {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.near_muji .out_box {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.near_title h2 {
+    font-size: 50px;
+    color: #f9f9f9;
+    font-weight: bold;
+}
+
+.near_title p {
+    display: inline-block;
+    font-size: 16px;
+    color: #f9f9f9;
+    font-weight: 200;
+    margin-top: 14px;
+}
+
+.near_title .search {
+    display: table;
+    width: 224px;
+    margin: 0 auto;
+    padding: 15px 0;
+    margin-top: 30px;
+    border: 1px solid #f9f9f9;
+    border-radius: 3px;
+}
+
+.near_title .search p {
+    display: table-cell;
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.near_title .search img {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.near_info {
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.near_info .map {
+    display: table;
+    background-color: rgba(255,255,255,0.25);
+    height: 100%;
+    
+}
+
+.near_info .map div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.near_info .point {
+    background-color: rgba(0,0,0,0.1);
+    height: 100%;
+    text-align: left;
+    padding: 0;
+
+}
+
+.near_info .point .point_wrap {
+    height: 100%;
+    overflow-y: scroll;
+    max-height: 420px;
+    margin:40px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.near_info .point .point_wrap div {
+    margin-right: 40px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+.near_info .point .point_wrap div:first-child {
+    margin-top: 0;
+}
+
+.near_info .point .point_wrap div:last-child {
+    border-bottom: 0;
+}
+
+.near_info .point h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #f9f9f9;
+}
+
+.near_info .point p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #f9f9f9;
+}
+
+.near_info .point .adress {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.near_muji .mobile {
+    display: none;
+}
+
+.near_muji .mobile li {
+    box-sizing: content-box;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .near_title h2 {
+        font-size: 50px;
+    }
+    
+    .near_title .search {
+        margin-top: 20px;
+    }
+    .near_info {
+        display: none;
+    }
+    .near_muji .mobile {
+        display: none;
+    }
+    .near_muji .mobile .map {
+        display: none;
+    }
+    .near_muji .mobile .point {
+        margin-top: 10px;
+    }
+}

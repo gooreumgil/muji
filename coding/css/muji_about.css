@@ -1,0 +1,482 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+/* HEADER */
+
+
+.head {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    position: absolute;
+}
+
+.head .fullscreen {
+    margin: 0 auto;
+}
+
+.head .fullscreen .inner {
+    margin: 0 auto;
+    margin: 0 45px;
+    padding: 45px 0;
+}
+
+nav.menu_wrap.mobile {
+    display: none; 
+    text-align: center;
+}
+
+.head nav .logo {
+    float: left;
+    margin-left: 10px;
+    padding-bottom: 45px;
+}
+
+.head .menu_wrap ul {
+    float: right;
+}
+
+.head .menu_wrap li {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 6px;
+    margin: 0 16px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+    float: left;
+    font-weight: 300;
+}
+
+.head .menu_wrap li:last-child {
+   margin-right: 10px;
+}
+
+.head .menu_wrap li a:hover {
+    color: rgba(255,255,255,0.5);
+}
+
+@media (max-width:768px) {
+    .head {
+        position: absolute;
+    }
+    .head .fullscreen {
+        display: none;
+    }
+    
+    nav.menu_wrap.mobile {
+        display: block;
+        background-color: #fff;
+        top: 0px;
+        padding: 30px 0;
+    }
+    
+    nav.menu_wrap.mobile .inner_nav {
+        width: 100%;
+        position: relative;
+    }
+    
+    nav.menu_wrap.mobile .menu {
+        position: absolute;
+        left: 30px;
+    }
+    
+    nav.menu_wrap.mobile .search {
+        position: absolute;
+        right: 30px;
+    }
+    
+    .head nav .logo {
+        display: none;
+    }
+    
+}
+
+
+/* BANNER */
+
+
+
+.banner {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    background-image: url(../imgs/sub_page/about_muji_bg_loss.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.banner .box {
+    height: 100%;
+    margin: 0 auto;
+    display: table;
+}
+
+.banner .banner_title {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner .banner_title h1 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.banner .banner_title p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 200;
+    line-height: 1.5;
+    margin: 0 20px;
+    margin-top: 20px;
+}
+
+/* INTRO */
+
+.intro {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #eeeeef;
+}
+
+.intro .intro_title {
+    height: auto;
+}
+
+.intro img {
+    margin-top: 165px;
+}
+
+.intro h2 {
+    font-size: 40px;
+    color: #333;
+    font-weight: 200;
+    margin: 0 20px;
+    line-height: 1.3;
+}
+
+.intro p {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #919191;
+    font-weight: 300;
+    margin: 0 20px;
+    margin-top: 25px;
+    line-height: 1.8;
+}
+
+.intro .ceo_name {
+    margin-top: 80px;
+    padding-bottom: 145px;
+    font-size: 18px;
+}
+
+@media (max-width:768px) {
+    .intro h2 {
+        font-size: 35px;
+    }
+}
+
+/* MUJI'S RULE */
+
+.muji_rule {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+
+.muji_rule .rule_title {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 165px;
+}
+
+.muji_rule img,
+.muji_rule h2 {
+    display: inline-block;
+}
+
+.muji_rule h2 {
+    text-align: left;
+    font-size: 40px;
+    color: #333;
+    font-weight: 200;
+    margin-bottom: 80px;
+    line-height: 1.3;
+}
+
+.muji_rule .rule_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.muji_rule .rule_wrap h3 {
+    margin-top: 100px;
+    font-size: 22px;
+    color: #555;
+    font-weight: 300;
+}
+.muji_rule .rule_wrap p {
+    margin-top: 25px;
+    font-size: 16px;
+    color: #919191;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.muji_rule .pc {
+    display: none;
+    padding-bottom: 50px;
+}
+
+.muji_rule .pc li {
+    padding: 0 20px;
+}
+
+.muji_rule .pc div {
+    border-bottom: 1px solid #aeaeae;
+    padding-bottom: 20px;
+}
+
+.muji_rule .pc .last {
+    border: 0;
+}
+
+.muji_rule .pc h3 {
+    margin-top: 25px;
+}
+
+@media (max-width:768px) {
+    .muji_rule h2{
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 35px;
+    }
+    .muji_rule .rule_wrap {
+        display: none;
+    }
+    .muji_rule .pc {
+        display: block;
+    }
+}
+
+/* MUJI'S PHILOSOPHY */
+
+.philosophy {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #eeeeef;
+}
+
+.philosophy .title {
+    padding-top: 154px;
+}
+
+.philosophy .title h2 {
+    font-size: 40px;
+    color: #333;
+    font-weight: 200;
+    margin-top: 44px;
+}
+
+.philosophy .philosophy_wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 48px;
+    padding-bottom: 100px;
+}
+
+.philosophy .philosophy_wrap h3 {
+    font-size: 22px;
+    color: #555;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.philosophy .philosophy_wrap p {
+    font-size: 16px;
+    color: #919191;
+    font-weight: 300;
+    margin-top: 22px;
+    line-height: 1.4;
+}
+
+.philosophy .philosophy_wrap img {
+    margin-top: 22px;
+    width: 100%;
+}
+
+.philosophy .pc {
+    display: none;
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.philosophy .pc img {
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .philosophy .mobile {
+        display: none;
+    }
+    .philosophy .pc {
+        display: block;
+    }
+    
+    .philosophy .philosophy_wrap {
+        padding-bottom: 80px;
+    }
+    
+    .philosophy .title h2 {
+        font-size: 35px;
+    }
+}
+
+/* MUJI'S HISTORY */
+
+.history {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+}
+
+.history .title {
+    padding-top: 185px;
+}
+
+.history .title .title_img {
+    margin: 0 auto;
+    max-width: 433px;
+}
+
+.history .title .title_img img {
+    width: 100%;
+}
+
+.history .title h2 {
+    font-size: 40px;
+    color: #333;
+    font-weight: 200;
+    margin-top: 70px;
+    line-height: 1.3;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.history .history_wrap {
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 130px;
+}
+
+.history .history_wrap h3 {
+    font-size: 22px;
+    color: #555;
+    font-weight: 300;
+    margin-top: 70px;
+}
+
+.history .history_wrap li table {
+    margin-top: 12px;
+    font-size: 16px;
+    color: #919191;
+    font-weight: 300;
+}
+
+.history .history_wrap li table td {
+    padding-top: 6px;
+    line-height: 1.5;
+}
+
+.history .history_wrap li table .year {
+    padding-right: 25px;
+    word-break: keep-all;
+}
+
+.history .pc {
+    display: none;
+}
+
+.history .pc li {
+    padding: 0 20px;
+}
+
+@media (max-width:768px) {
+    .history .mobile {
+        display: none;
+    }
+    
+    .history .pc {
+        display: block;
+    }
+    
+    .history .title h2 {
+        font-size: 35px;
+    }
+    
+    .history .history_wrap {
+        padding-bottom: 60px;
+    }
+    
+    .history .history_wrap h3 {
+        margin-top: 25px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #aeaeae;
+    }
+    
+    .history .history_wrap h3:first-child {
+        margin-top: 35px;
+        
+    }
+}
+
+/* FOOTER */
+
+.footer {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.footer .sns {
+    padding-top: 54px;
+}
+
+.footer .sns img {
+    margin: 0 3px;
+}
+
+.footer .sns .youtube {
+    margin-bottom: 2px;
+}
+
+.footer .brand {
+    padding-bottom: 54px;
+    margin-top: 16px;
+}
+
+.footer .brand p {
+    margin-top: 14px;
+    font-size: 16px;
+    color: rgba(0,0,0,0.85);
+    font-weight: 400;
+}
